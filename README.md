@@ -146,6 +146,51 @@ Create a display function:
 
 Start from head and traverse through the list.
 
+## Concepts Used
+### Object-Oriented Programming (OOP)
+
+Classes: Used to define a node (Node / Link) with attributes (data and pointer).
+
+Objects: Each dynamically created node is an object of the class.
+
+Constructors: Automatically initialize data values when a node is created.
+
+### Dynamic Memory Allocation
+
+The keyword new allocates memory at runtime for nodes.
+
+Provides flexibility, unlike arrays which are fixed-size.
+
+Essential for building scalable data structures.
+
+### Pointers and Address Linking
+
+Each node contains a pointer (next) that stores the address of the next node.
+
+Pointer manipulation connects nodes together, forming the chain.
+
+NULL (or 0) is used to mark the end of the list.
+
+### Linked List Data Structure
+
+Node Creation: Initializing data and setting next.
+
+Traversal: Iterating through the list until the end.
+
+Insertion at Head: Adding new nodes dynamically at the start of the list.
+
+### Control Structures
+
+Loops: while loops are used for traversal until NULL is reached.
+
+Condition Checks: Ensures termination when there are no more nodes.
+
+### Modularity
+
+Functions like insert_head() and disp() are written separately in Program 3.
+
+Improves reusability, readability, and maintainability of code.
+
 ## Conclusion
 
 Program 1 provided understanding of creating multiple nodes and linking them together manually.
